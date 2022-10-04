@@ -12,10 +12,10 @@ https://szuyuchen.github.io/HTML-CSS-clip-shape/
 
 ### Tools:
 
-- Unsplash: https://unsplash.com/
+- Google fonts: https://fonts.google.com/
 
 - CSS clip-path maker: https://bennettfeely.com/clippy/
 
 - Image gallery: https://unsplash.com/
 
-- CSS Gradient: https://cssgradient.io/
+- CSS gradient: https://cssgradient.io/
