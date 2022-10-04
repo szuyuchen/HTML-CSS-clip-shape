@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+  background: rgb(174, 233, 238);
+  background: radial-gradient(circle, rgba(174, 233, 238, 1) 0%, rgba(124, 219, 197, 1) 32%, rgba(152, 245, 203, 1) 67%, rgba(169, 228, 93, 1) 100%);
+}
+
+.clip-shape-bg {
+  background-image: url("./images/bg-img.jpg");
+  height: 100vh;
+  clip-path: polygon(0 12%, 100% 12%, 100% 83%, 75% 83%, 68% 100%, 60% 83%, 0 83%);
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.clip-shape-bg::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.clip-shape-bg h1 {
+  font-size: 8rem;
+  color: #fff;
+  letter-spacing: 5px;
+  z-index: 1;
+}
